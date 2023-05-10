@@ -81,7 +81,7 @@ Tuned (Max Depth) Decision Tree Model(Test Set):
    - The Mean Absolute Error was off by $7,544.96.
    - The Mean Squared Error was $1,137,929.68.
    - The Root Mean Squared Error had a calculation of $1,066.79.
- - By using this model we can see that we have a we have a higher mean squared error dispite r^2 desparity. The data still has a good amount of error variance but reports alot accuracy.
+ - By using this model we can see that the Root Mean Squared Error out performs the other models and has the least amount of errors which is the same as the target unit, dispite r^2 desparity. The data still has a good amount of error variance but reports alot accurately.
 
 ---
 
@@ -90,7 +90,7 @@ Tuned (Max Depth) Decision Tree Model(Test Set):
 Based on the models rendered above:
 - We can see that `Seafood` , being most visibile does generate high sales including having the highest `Item_MRP`.
 - Additionally, `Starchy Foods` were additionally higher in sales but were lower in visibilty in comparison. 
--Rotation of Items that have lower or moderate sales can be made more visible based on type can be effective in promoting future sales. For example, providing bundle sales for `Breakfast Items` and promote sales in store would increase in popularity. 
+- Rotation of Items that have lower or moderate sales can be made more visible based on type can be effective in promoting future sales. For example, providing bundle sales for `Breakfast Items` and promote sales in store would increase in popularity. 
 
 
 
