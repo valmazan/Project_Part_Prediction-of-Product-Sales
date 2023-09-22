@@ -110,7 +110,8 @@ Based on the models rendered above:
 
 #### Top 10 Most Important Features
 
-![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/20947fac-a451-44b1-b34f-3bb1856100af)
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/913c2358-99fc-4a5a-a830-f8c5b68632e5)
+
 
 - We have narrowed down our Important Values to the top 10. Based on the figure above, we can see that Item_MRP is the most important feature. In simpler terms, for every increase we have in an item's 'Maximum retail price' the model predicts an increase in item sales thus driving the correlation between the two.
 
