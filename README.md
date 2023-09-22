@@ -120,13 +120,13 @@ Based on the models rendered above:
 
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/7aa70ff7-fd15-4ed8-9c2f-395145fbfac2)
 
- - 
+ - We will compare Random Forest Model to our top 10 features summary model, we see 
 
 ### Random Forest SHAP Summary 
 
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/ded96b6d-f70e-4eb6-9ae1-71cb7cb11444)
 
- - 
+ - We can see that our random forest bar plot has similar features to our top 10 important features. Item_MRP and Outlet_type
 
 
 
