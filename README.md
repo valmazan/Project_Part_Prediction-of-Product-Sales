@@ -120,7 +120,7 @@ Based on the models rendered above:
 
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/7aa70ff7-fd15-4ed8-9c2f-395145fbfac2)
 
- - We will compare Random Forest Model to our top 10 features summary model, we see 
+ - We will compare Random Forest Model to our top 10 features summary model, we can see that Item MRP is a consistent feature between the two models. To help better understand red signifies larger features while blue signifies the smaller features. For 'Item_MRP' we can see some red to the right which indicates higher prices of items while blue indicates the lower prices of Item MRP.
 
 ### Random Forest SHAP Summary 
 
