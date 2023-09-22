@@ -113,13 +113,20 @@ Based on the models rendered above:
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/913c2358-99fc-4a5a-a830-f8c5b68632e5)
 
 
+
 - We have narrowed down our Important Values to the top 10. Based on the figure above, we can see that Item_MRP is the most important feature. In simpler terms, for every increase we have in an item's 'Maximum retail price' the model predicts an increase in item sales thus driving the correlation between the two.
 
+### Random Forest Dot Plot
 
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/7aa70ff7-fd15-4ed8-9c2f-395145fbfac2)
 
+ - 
 
+### Random Forest SHAP Summary 
 
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/ded96b6d-f70e-4eb6-9ae1-71cb7cb11444)
 
+ - 
 
 
 
