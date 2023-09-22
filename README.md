@@ -93,9 +93,26 @@ Based on the models rendered above:
 - Rotation of Items that have lower or moderate sales can be made more visible based on type can be effective in promoting future sales. For example, providing bundle sales for `Breakfast Items` and promote sales in store would increase in popularity. 
 
 
+---
+
+### Project 1 Revisited: Importances and Coefficients
 
 
 
+#### Linear Regression Coefficients
+
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/cd37c1e4-b050-4182-bcdf-a3fe0e8b5012)
+
+
+- We can tell based on the top Linear Coefficients that we have positive and negative coefficients with Item Visibility being in the negative coefficients. On the opposite hand we have a positive coefficients that being Item Type Breakfast.
+
+
+#### Top 10 Most Important Features
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/20947fac-a451-44b1-b34f-3bb1856100af)
+
+- We have narrowed down our Important Values to the top 10. Based on the figure above, we can see that Item_MRP is the most important feature. In simpler terms, for every increase we have in an item's 'Maximum retail price' the model predicts an increase in item sales thus driving the correlation between the two.
 
 
 
