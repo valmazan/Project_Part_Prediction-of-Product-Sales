@@ -121,7 +121,9 @@ Based on the models rendered above:
 
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/7aa70ff7-fd15-4ed8-9c2f-395145fbfac2)
 
- - We will compare Random Forest Model to our top 10 features summary model, we can see that Item MRP is a consistent feature between the two models. To help better understand red signifies larger features while blue signifies the smaller features. For 'Item_MRP' we can see some red to the right which indicates higher prices of items while blue indicates the lower prices of Item MRP.
+ - We will compare Random Forest Model to our top 10 features summary model, we can see that Item MRP is a consistent feature between the two models. To help better understand each dot represents the feature value on the model prediction, the color represents the feature value. We also can see here that Item_MRP swaying to the right of 0 signifies a higher prices item while swaying to the left signifies a decrease in price. 
+ - Another feature of note is Outlet_type_grocery_store, this ohe feature represents the red meaning yes grocery store vs blue which is other type of grocery type.
+ - I would also point out Item_Visibility, as this feature will differ depending on a visible variable, as we can see in our model that  sales are dependent on item visibility and display in store contributes to the higher and lower sales. 
 
 ### Random Forest SHAP Summary 
 
