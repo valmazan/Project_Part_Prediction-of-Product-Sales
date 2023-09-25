@@ -94,8 +94,9 @@ Based on the models rendered above:
 
 
 ---
+---
 
-### Project 1 Revisited: Importances and Coefficients
+## Project 1 Revisited: Importances and Coefficients
 
 
 
