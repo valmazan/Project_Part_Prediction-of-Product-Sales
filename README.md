@@ -112,7 +112,7 @@ Based on the models rendered above:
 
 ![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/913c2358-99fc-4a5a-a830-f8c5b68632e5)
 
-
+## Part 2: Global Explanation
 
 - We have narrowed down our Important Values to the top 10. Based on the figure above, we can see that Item_MRP is the most important feature. In simpler terms, for every increase we have in an item's 'Maximum retail price' the model predicts an increase in item sales thus driving the correlation between the two.
 
@@ -129,6 +129,73 @@ Based on the models rendered above:
  - We can see that our random forest bar plot has similar features to our top 10 important features. Item_MRP and Outlet_type
 
 
+## Part 3 : Local Explainations 
+
+ - We will continue to working on our models but now to will proceed to isolating two example rows of item_MRP based on the highest prices item and the lowest priced item. We will also continue to test between Linear Regression and Random Tree Forest.
+
+## Example 1: 
+### Shap Force Plot
+
+#### Random Forest Force Plot
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/f5e2f916-a0b6-4c62-a79d-64fc4cc3f43f)
+
+- In the sample, we isolated the base value of 2,155. Our highest final item value of 264.70 rupees. We can also see that this item is sold in a small grocery store. Also the establishments year of 2009.
+
+#### Linear Regression Force Plot
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/af8c9297-7cd9-4dbe-9866-d3cc9c6bafd0)
+
+- With running a secondary Linear Regression model we also see out Item_MRP at 264.70 rupess, we can also note that out final f(x) of 4,138.71 which is higher than the random forest model. We also see a change in outlet size to me medium of size.
+
+We will continue with model by trying a LIME model.
+
+## LIME 
+
+We will be conducting a LIME model with you first Example which is the higher item_MRP using a regression mode.
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/304dc978-2323-401f-9996-a8a0ef1b9225)
+
+- For our Lime Model, Our predicted value for this row is 3493.27 accurate out of 57.52-7059 which means that we have a good prediction for this model. We also can see that other values indicate that this establishment is a small grocery store as its value is 0 out of 4.
+
+## Example 2:
+
+### Shap Force Plot 
+
+We will continue our modeling with example 2 for the minimum Item_MRP. We will also conduct a Random forest and linear regression model.
+
+#### Random Forest Force Plot
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/099b2eb1-7d27-46b7-bb3c-998fcae04c56)
+
+- For our value minimum Item_Mrp we can see 32.36 rupees. Our final f(x) value is 299.46. We also have a value for establishment year being 1987.
+
+  #### Linear Regression
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/7e8e7de9-2fd1-4fab-9905-ecfb65b87e01)
+
+- For this linear regression model we can see that the Item_MRP is similar to 32.35. We do see a change in increase of f(x) value of 824.18 rupees. We can also note that the outlet type changed to 1 meaning this item is located at a larger location and can attribute to the higher f(x) value.
+
+- We will continue onto out LIME model with our secondardy exmaple row. 
+
+## LIME
+
+We will now proceed with conducting a LIME model for our second example and we will be using the random forest regression.
+
+![image](https://github.com/valmazan/Project_Part_Prediction-of-Product-Sales/assets/126423326/3d646b1e-bf95-4421-9df0-024fe92a6284)
+
+- Based on our predicted value of our second example, we showing 299.46. Our minimum predicted value ranges from 61.65- 6880.97, so we have a very low prediction value. We can also deduce that this is a small grocery store, we can also see the establishment year of 1987.
+ 
+ 
+
+
+
+
+
+
+
+
+   
 
 
 
